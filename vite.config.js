@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/barbara.github.io/'
+  base: process.env.NODE_ENV === 'production'
+    ? '/barbara.github.io/'
+    : '/'
 })

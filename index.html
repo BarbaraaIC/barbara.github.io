@@ -1,14 +1,119 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/barbara.github.io/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
-    <script type="module" crossorigin src="/barbara.github.io/assets/index-Dhmyxuaz.js"></script>
-    <link rel="stylesheet" crossorigin href="/barbara.github.io/assets/index-CsUDhMuy.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>KinexCenter</title>
+</head>
+
+<body>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Contacto</a></li>
+    <li><a href="#">Iniciar sesión</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>KinexCenter</h1>
+  <p class="about-text">Centro de bienestar y estetica</p>
+
+  <button id="btn">Reservar hora</button>
+</header>
+
+<section class="about">
+  <div class="about-container">
+    
+    <div class="about-text">
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        Somos un centro de kinesiología y estética enfocado en el bienestar integral de nuestros pacientes.
+        Ofrecemos tratamientos personalizados, combinando salud, rehabilitación y cuidado estético,
+        con un enfoque profesional y cercano.
+      </p>
+    </div>
+
+    <div class="about-img">
+      <img src="/assets/centro.png" alt="Centro estético">
+    </div>
+
+  </div>
+</section>
+<section class="seccion-combinada">
+
+  <!-- IZQUIERDA -->
+  <div class="porque">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul class="lista-ticks">
+      <li>✔ Atención personalizada</li>
+      <li>✔ Profesionales certificados</li>
+      <li>✔ Tecnología moderna</li>
+      <li>✔ Tratamientos efectivos</li>
+      <li>✔ Ambiente cómodo y seguro</li>
+      <li>✔ Enfoque integral en tu bienestar</li>
+    </ul>
+  </div>
+
+  <!-- DERECHA -->
+  <div class="carrusel">
+    <div class="slides">
+      <img src="/assets/tratamientobelleza.png" class="slide active">
+      <img src="/assets/tratamientorelaja.jpg" class="slide">
+      <img src="/assets/bellezafacial.jpg" class="slide">
+    </div>
+
+    <button class="prev">⟨</button>
+    <button class="next">⟩</button>
+  </div>
+
+</section>
+
+<section class="Especialidades">
+  <div class="especialidades-container">
+    <h2>Nuestros Tratamientos</h2>
+    <p class="subtitle">Descubre nuestros servicios especializados</p>
+
+    <div class="tratamientos-grid">
+      <div class="tratamiento-card">Masaje Terapéutico</div>
+      <div class="tratamiento-card">Rehabilitación</div>
+      <div class="tratamiento-card">Drenaje Linfático</div>
+      <div class="tratamiento-card">Tratamiento Facial</div>
+      <div class="tratamiento-card">Peeling Químico</div>
+      <div class="tratamiento-card">Electroestimulación</div>
+      <div class="tratamiento-card">Radiofrequencia</div>
+      <div class="tratamiento-card">Mesoterapia</div>
+      <div class="tratamiento-card">Tratamiento de Espalda</div>
+      <p class="ver-mas">Mostrar más tratamientos</p>
+    </div>
+  </div>
+</section>
+
+<script type="module" src="/src/main.js"></script>
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contacto</h3>
+      <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+      <p><strong>Correo:</strong> info@kinexcenter.cl</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Dirección</h3>
+      <p>Calle Principal 123</p>
+      <p>Santiago, Chile</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Horario</h3>
+      <p>Lunes - Viernes: 09:00 - 18:00</p>
+      <p>Sábado: 10:00 - 14:00</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 KinexCenter - Todos los derechos reservados</p>
+  </div>
+</footer>
+</body>
 </html>
